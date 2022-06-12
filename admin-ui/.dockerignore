@@ -1,0 +1,8 @@
+*
+!src
+!public
+!env.config.js
+!package.json
+!package-lock.json
+!nginx.conf
+!vue.config.js

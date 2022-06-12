@@ -1,4 +1,17 @@
-# More info: https://docs.docker.com/engine/reference/builder/#dockerignore-file
-# Ignore build and test binaries.
-bin/
-testbin/
+*
+!admin-ui/src
+!admin-ui/public
+!admin-ui/env.config.js
+!admin-ui/package.json
+!admin-ui/package-lock.json
+!admin-ui/nginx.conf
+!admin-ui/vue.config.js
+!api
+!config
+!controllers
+!hack
+!go.mod
+!go.sum
+!main.go
+!Makefile
+!PROJECT
