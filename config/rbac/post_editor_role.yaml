@@ -1,0 +1,24 @@
+# permissions for end users to edit posts.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: post-editor-role
+rules:
+- apiGroups:
+  - cubepress.beezlabs.app
+  resources:
+  - posts
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - cubepress.beezlabs.app
+  resources:
+  - posts/status
+  verbs:
+  - get

@@ -1,0 +1,6 @@
+apiVersion: cubepress.beezlabs.app/v1alpha1
+kind: Post
+metadata:
+  name: post-sample
+spec:
+  # TODO(user): Add fields here
